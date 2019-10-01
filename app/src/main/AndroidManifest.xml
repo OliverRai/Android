@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login"></activity>
+        <activity android:name=".RedefinirSenha"></activity>
+        <activity android:name=".CadastroUser" />
+        <activity android:name=".Login" />
         <activity android:name=".MainActivity" />
         <activity android:name=".splash">
             <intent-filter>

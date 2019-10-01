@@ -3,9 +3,21 @@ package com.petsapp;
 import com.google.firebase.database.Exclude;
 
 public class Usuario {
-    private String nome, email, definicao, mKey;
 
-    public Usuario() {
+    private String uid;
+    private String nome;
+    private String email;
+    private String senha;
+
+
+    public Usuario(){}
+
+    public String getUid() {
+        return uid;
+    }
+
+    public void setUid(String uid) {
+        this.uid = uid;
     }
 
     public String getNome() {
@@ -24,23 +36,14 @@ public class Usuario {
         this.email = email;
     }
 
-    public String getDefinicao() {
-        return definicao;
+    public String getSenha() {
+        return senha;
     }
 
-    @Override
-    public String toString() {
-        return nome;
-    }
-
-    @Exclude
-    public String getmKey() {
-        return mKey;
-    }
-
-    @Exclude
-    public void setmKey(String mKey) {
-        this.mKey = mKey;
+    public void setSenha(String senha) {
+        this.senha = senha;
     }
 }
+
+
 
