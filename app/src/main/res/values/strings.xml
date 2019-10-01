@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Petsapp</string>
+    
+    <string name="Adicionar">Adicionar</string>
+    <string name="novoAnimal"></string>
+    <string name="appName">PETS</string>
+    <string name="textoLogin">Seja bem vindo ao aplicativo que ajuda os animais!</string>
+</resources>
